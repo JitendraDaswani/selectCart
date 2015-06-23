@@ -1,0 +1,165 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#wrapper{
+  margin-top: 10px;
+  
+}
+
+footer{
+  text-align: center;
+  color: #FFFFFF;
+  height:50px;
+  background-color: #000000;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+     
+}
+/*
+#cart
+{ 
+  margin-top: 20px;
+  width:100%;
+  background-color: #000000;
+  position: fixed;
+  z-index: 2000;
+}
+*/
+#form-search{
+  margin-top: 60px;
+}
+#popup{
+  margin-top: 0px;
+  width:100%;
+  position: fixed;
+  z-index: 2000;
+}
+#box{
+  margin-top: 50px;
+  width:100%;
+  position:fixed;
+  z-index: 2001;  
+}
+#message{
+  background-color: #FFFF00;
+  box-shadow: 2px 2px 5px;
+  border-radius: 7px;
+}
+
+#stuff-detail{
+  background-color: #EEEEEE;
+  border:1px solid #CCCCCC;
+  box-shadow: 2px 2px 5px;
+}
+
+#signup-page{
+  background-color: #EEEEEE;
+  border:1px solid #CCCCCC;
+  box-shadow: 2px 2px 5px;
+}
+
+.popup-page{
+  background-color: #FFD5D5;
+  border:1px solid #FF0000;
+  box-shadow: 2px 2px 5px;
+}
+
+#account-link{
+  color: #FFFF00;
+}
+
+#cart-table{
+  height: 300px;
+  overflow: auto;
+}
+
+.progress {
+  margin-left: 35%;
+}
+
+#exitmessage {
+  margin-left: 40%; 
+  margin-bottom: 10px; 
+}
+
+#message h4  {
+   margin-left: 30%; 
+}
+
+#message h2 {
+   margin-left: 2%; 
+}
+
+#hints {
+  position:fixed;
+  z-index: 2002;
+  background-color: #FFFFFF;
+   list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+.spinner {
+  margin: 1px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #FF0000;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
